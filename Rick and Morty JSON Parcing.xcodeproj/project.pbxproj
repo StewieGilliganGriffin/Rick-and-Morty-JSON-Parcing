@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E24734D5267106DA00189063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734D4267106DA00189063 /* AppDelegate.swift */; };
 		E24734D7267106DA00189063 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734D6267106DA00189063 /* SceneDelegate.swift */; };
-		E24734D9267106DA00189063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734D8267106DA00189063 /* ViewController.swift */; };
+		E24734D9267106DA00189063 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734D8267106DA00189063 /* TableViewController.swift */; };
 		E24734DC267106DA00189063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24734DA267106DA00189063 /* Main.storyboard */; };
 		E24734DE267106DB00189063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24734DD267106DB00189063 /* Assets.xcassets */; };
 		E24734E1267106DB00189063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24734DF267106DB00189063 /* LaunchScreen.storyboard */; };
+		E24734E9267107E700189063 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734E8267107E600189063 /* Model.swift */; };
+		E24734ED26710F0600189063 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24734EC26710F0600189063 /* CharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E24734D1267106DA00189063 /* Rick and Morty JSON Parcing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty JSON Parcing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24734D4267106DA00189063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24734D6267106DA00189063 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E24734D8267106DA00189063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E24734D8267106DA00189063 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E24734DB267106DA00189063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24734DD267106DB00189063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24734E0267106DB00189063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24734E2267106DB00189063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24734E8267107E600189063 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E24734EC26710F0600189063 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				E24734D4267106DA00189063 /* AppDelegate.swift */,
 				E24734D6267106DA00189063 /* SceneDelegate.swift */,
-				E24734D8267106DA00189063 /* ViewController.swift */,
+				E24734D8267106DA00189063 /* TableViewController.swift */,
 				E24734DA267106DA00189063 /* Main.storyboard */,
 				E24734DD267106DB00189063 /* Assets.xcassets */,
 				E24734DF267106DB00189063 /* LaunchScreen.storyboard */,
 				E24734E2267106DB00189063 /* Info.plist */,
+				E24734E8267107E600189063 /* Model.swift */,
+				E24734EC26710F0600189063 /* CharacterViewController.swift */,
 			);
 			path = "Rick and Morty JSON Parcing";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24734D9267106DA00189063 /* ViewController.swift in Sources */,
+				E24734D9267106DA00189063 /* TableViewController.swift in Sources */,
+				E24734ED26710F0600189063 /* CharacterViewController.swift in Sources */,
 				E24734D5267106DA00189063 /* AppDelegate.swift in Sources */,
 				E24734D7267106DA00189063 /* SceneDelegate.swift in Sources */,
+				E24734E9267107E700189063 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
