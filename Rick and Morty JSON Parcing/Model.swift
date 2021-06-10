@@ -12,13 +12,13 @@ struct CharacterInfo: Decodable {
     let count: Int
     let pages: Int
     let next: String
-    let prev: String
+//    let prev: String?
 }
 
-struct InfoResult: Decodable {
+struct Characters: Decodable {
     
     let info: CharacterInfo
-    let result: [CharacterStats]
+    let results: [CharacterStats]
     
 }
 struct CharacterStats: Decodable {
